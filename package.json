@@ -1,0 +1,33 @@
+{
+  "name": "@colepeters/eslint-config",
+  "version": "1.0.0",
+  "description": "My preferred ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colepeters/eslint-config.git"
+  },
+  "publishConfig": {
+    "@colepeters/registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Cole Peters",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colepeters/eslint-config/issues"
+  },
+  "homepage": "https://github.com/colepeters/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 8"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  }
+}
